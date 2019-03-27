@@ -88,7 +88,7 @@
 @property BOOL animateHeightChange;
 @property NSTimeInterval animationDuration;
 @property (nonatomic, strong) NSString *placeholder;
-@property (nonatomic, strong) NSMutableAttributedString *attributedPlaceholder;
+@property (nonatomic, strong) NSAttributedString *attributedPlaceholder;
 @property (nonatomic, strong) UIColor *placeholderColor;
 @property (nonatomic, strong) UITextView *internalTextView;	
 

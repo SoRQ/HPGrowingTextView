@@ -241,7 +241,7 @@
     [internalTextView setNeedsDisplay];
 }
 
-- (void)setAttributedPlaceholder:(NSMutableAttributedString *)attributedPlaceholder
+- (void)setAttributedPlaceholder:(NSAttributedString *)attributedPlaceholder
 {
     [internalTextView setPlaceholder:nil];
     [internalTextView setAttributedPlaceholder:attributedPlaceholder];

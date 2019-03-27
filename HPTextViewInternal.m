@@ -125,7 +125,7 @@
 	
 	[self setNeedsDisplay];
 }
-- (void)setAttributedPlaceholder:(NSMutableAttributedString *)attributedPlaceholder
+- (void)setAttributedPlaceholder:(NSAttributedString *)attributedPlaceholder
 {
     _attributedPlaceholder = attributedPlaceholder;
     [self setNeedsDisplay];
